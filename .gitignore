@@ -1,0 +1,14 @@
+# Ignore virtual environments
+.venv/
+env/
+__pycache__/
+
+# Ignore model files (optional if you're saving models)
+*.pkl
+*.joblib
+
+# Ignore dataset (if added temporarily)
+train.csv
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
