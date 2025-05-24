@@ -1,4 +1,3 @@
-# toxic-comment-classifier
 # Toxic Comment Classifier (Multi-Label NLP)
 
 This project uses the Jigsaw Toxic Comment Classification dataset to predict multiple types of toxicity in user comments using Logistic Regression.
