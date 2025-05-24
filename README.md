@@ -10,3 +10,10 @@ This project uses the Jigsaw Toxic Comment Classification dataset to predict mul
 
 ## How to Run
 Open `toxic_comment_classifier.ipynb` and run the cells in order.
+
+## 📂 Dataset
+
+This project uses the **Jigsaw Toxic Comment Classification Challenge** dataset from [Kaggle](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge).
+
+Due to licensing restrictions, the dataset is **not included in this repository**.  
+To run this notebook, please download `train.csv` from Kaggle and upload it manually.
