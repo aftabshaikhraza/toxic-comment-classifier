@@ -1,19 +1,26 @@
-# Toxic Comment Classifier (Multi-Label NLP)
+# Toxic Comment Classifier
 
-This project uses the Jigsaw Toxic Comment Classification dataset to predict multiple types of toxicity in user comments using Logistic Regression.
+A multi-label NLP model trained on the Jigsaw dataset to detect various types of toxic language in online comments.
 
-## Project Highlights
-- Multi-label classification (6 classes)
-- Text vectorized using TF-IDF
-- Model trained using One-vs-Rest Logistic Regression
-- Evaluated with Precision, Recall, F1-score
+## Labels:
+- toxic
+- severe_toxic
+- obscene
+- threat
+- insult
+- identity_hate
 
-## How to Run
-Open `toxic_comment_classifier.ipynb` and run the cells in order.
+##  How to Use
+1. Download `train.csv` from [Kaggle](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge)
+2. Upload `train.csv` to Colab
+3. Open and run `toxic_comment_classifier.ipynb`
 
-## 📂 Dataset
+## Model
+- Vectorization: TF-IDF
+- Classifier: One-vs-Rest Logistic Regression
+- Evaluation: Precision, Recall, F1-Score
 
-This project uses the **Jigsaw Toxic Comment Classification Challenge** dataset from [Kaggle](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge).
-
-Due to licensing restrictions, the dataset is **not included in this repository**.  
-To run this notebook, please download `train.csv` from Kaggle and upload it manually.
+## Requirements
+Install dependencies from `requirements.txt` using:
+```bash
+pip install -r requirements.txt
